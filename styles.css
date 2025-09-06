@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card-header {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  padding: 20px;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #5856eb, #7c3aed);
+}
+.btn-outline-danger:hover {
+  background-color: #ef4444;
+  color: white;
+}
+.task {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-left: 4px solid #6366f1;
+}
+.task.done {
+  background: #f0fdf4;
+  border-left-color: #424242;
+  text-decoration: line-through;
+  color: #64748b;
+}
+.priority-high {
+  border-left-color: #ef4444;
+}
+.priority-medium {
+  border-left-color: #f59e0b;
+}
+.priority-low {
+  border-left-color: #10b981;
+}
+    
